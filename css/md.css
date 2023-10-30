@@ -1,0 +1,458 @@
+.all {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    display: flex;
+    margin-top: 50px;
+}
+
+.TOP {
+    list-style: none;
+    display: flex;
+}
+
+.TOPP {
+    margin-left: 60px;
+    margin-top: 33px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.TOPP:hover {
+    transform: translateY(-10px);
+}
+
+.top-photo {
+    position: relative;
+}
+
+.top-text {
+    position: absolute;
+    top: 55%;
+    left: 10%;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 5px 5px 3px rgba(0,0,0,0.5);
+}
+
+#NEWS {
+    text-align: center;
+    text-shadow: 5px 5px 3px rgba(0,0,0,0.5);
+}
+
+#Result {
+    text-align: center;
+    padding-top: 30px;
+    margin-right: 10px;
+    text-shadow: 5px 5px 3px rgba(0,0,0,0.5);
+}
+
+#Mission {
+    text-align: center;
+    text-shadow: 5px 5px 3px rgba(0,0,0,0.5);
+}
+
+#Service {
+    text-align: center;
+    text-shadow: 5px 5px 3px rgba(0,0,0,0.5);
+}
+
+#IR {
+    text-align: center;
+    text-shadow: 5px 5px 3px rgba(0,0,0,0.5);
+}
+
+#career {
+    text-align: center;
+    text-shadow: 5px 5px 3px rgba(0,0,0,0.5);
+}
+
+.news-top{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin-right: 50px;
+}
+
+.news1 {
+    text-align: center;
+}
+
+.news2 {
+    text-align: center;
+}
+
+.ichiran {
+    font-size: 20px;
+    margin-left: 50px;
+    font-weight: bold;
+    border-radius: 20px;
+    background: turquoise;
+    text-align: center;
+    max-width: 15%;
+}
+
+.ichiran:hover {
+    transform: translateY(-5px);
+}
+
+.RfF-ALL {
+    background-color: gainsboro;
+    max-width: 1200px;
+}
+
+.photo-ALL {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin-right: 50px;
+}
+
+.RfF-midashi1 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.RfF-midashi2 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.mission-photo {
+    position: relative;
+}
+
+.mission-text {
+    position: absolute;
+    top: 220%;
+    left: 40%;
+    color: white;
+    font-size: 15px;
+    margin-left: 100px;
+}
+
+.mission-text-last {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 180px;
+    margin-right: 50px;
+    color: black;
+}
+
+.service-ALL {
+    display: flex;
+}
+
+.service-photo {
+    margin-left: 90px;
+}
+
+.service-text {
+    margin-left: 60px;
+    margin-top: 40px;
+    font-size: 15px;
+}
+
+.service-text-1 {
+    font-weight: bold;
+    font-size: 20px;
+    color: tomato;
+}
+
+.IR-ALL {
+    background-color: gainsboro;
+    max-width: 1200px;
+    padding-bottom: 50px;
+}
+
+.IR-text {
+    display: flex;
+    list-style: none;
+    max-width: 1200px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-left: 300px;
+}
+
+#IR-TOP {
+    color: red;
+    margin-left: 30px;
+}
+
+#IR-NEWS {
+    color: red;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+#gyo-zai {
+    color: red;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+#IR-library {
+    color: red;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.IRR {
+    margin: 30px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.IRR:hover {
+    transform: translateY(-10px);
+}
+
+#newIR {
+    margin-left: 50px;
+}
+
+.IR-news {
+    margin-left: 50px;
+}
+
+.gyo-zai-text {
+    margin-left: 50px;
+}
+
+.IR-library-text {
+    margin-left: 50px;
+}
+
+.pdf {
+    margin-left: 50px;
+}
+
+#kaisya {
+    text-align: center;
+    max-width: 1200px;
+}
+
+.kaisha1 {
+    width: 40%;
+    margin-top: 30px;
+    }
+    
+    .kaisha1 th,
+    .kaisha1 td {
+    padding: 20px;
+    }
+    
+    .kaisha1 th {
+    font-weight: bold;
+    background-color: #dedede; 
+    }
+    
+    @media screen and (max-width: 1200px) {
+    .kaisha1,
+    .kaisha1 tr,
+    .kaisha1 td,
+    .kaisha1 th {width:auto;}
+    }
+
+.map iframe {
+    width: 1200px;
+    margin-top: 30px;
+}
+
+.career-photo {
+    position: relative;
+}
+
+.career-main-text {
+    position: absolute;
+    top: 630%;
+    left: 470px;
+    font-size: 50px;
+    font-weight: bold;
+    color:black;
+    text-align: center;
+    color: white;
+}
+
+.career-text {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    max-width: 1200px;
+    margin-left: 10px;
+    text-shadow: 5px 5px 3px rgba(0,0,0,0.5);
+}
+
+.career-photos {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.career-photo2 {
+    display: flex;
+    animation: loop-slide 20s infinite linear 1s both;
+}
+@keyframes loop-slide {
+    from{
+        transform: translateX(0) ;
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+
+.saiyo-title {
+    text-align: center;
+    max-width: 1200px;
+}
+
+.saiyo-main {
+    display: flex;
+}
+
+.shinsotsu {
+    margin-left: 150px;
+}
+
+.sales {
+    margin-left: 50px;
+}
+
+.marke {
+    margin-left: 50px;
+}
+
+.cope {
+    margin-left: 50px;
+}
+
+.last {
+    background-color: gainsboro;
+    max-width: 1200px;
+}
+
+.news-service {
+    margin-left: 50px;
+}
+
+.saiyo {
+    margin-left: 65px;
+}
+
+.zenhan {
+    display: flex;
+    margin-left: 100px;
+}
+
+.kouhan {
+    display: flex;
+    background-color: gainsboro;
+    max-width: 1200px;
+    margin-left: 100px;
+}
+
+.syamei {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+#toiawase {
+    margin-left: 500px;
+}
+
+.Form {
+    margin-top: 20px;
+    margin-left: 150px;
+    max-width: 900px;
+  }
+
+  .Form-Item {
+    border-top: 1px solid #ddd;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .Form-Item:nth-child(5) {
+    border-bottom: 1px solid #ddd;
+  }
+
+  .Form-Item-Label {
+    width: 100%;
+    max-width: 248px;
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  .Form-Item-Label.isMsg {
+    margin-top: 8px;
+    margin-bottom: auto;
+  }
+
+  .Form-Item-Label-Required {
+    border-radius: 6px;
+    margin-right: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 48px;
+    display: inline-block;
+    text-align: center;
+    background: wheat;
+    color: black;
+    font-size: 14px;
+  }
+
+  .Form-Item-Input {
+    border: 3px solid #ddd;
+    border-radius: 6px;
+    margin-left: 40px;
+    padding-left: 1em;
+    padding-right: 1em;
+    height: 48px;
+    flex: 1;
+    width: 100%;
+    max-width: 410px;
+    background: #eaedf2;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .Form-Item-Textarea {
+    border: 3px solid #ddd;
+    border-radius: 6px;
+    margin-left: 40px;
+    height: 300px;
+    width: 100%;
+    max-width: 410px;
+    background: #eaedf2;
+    font-size: 18px;
+  }
+
+  .Form-Btn {
+    border-radius: 50px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 150px;
+    display: block;
+    background: wheat;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+ .Form-Btn:hover {
+    transform: translateY(-10px);
+ }
